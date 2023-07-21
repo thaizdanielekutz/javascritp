@@ -8,4 +8,6 @@ if (idadeN > 18) {
   alert("Você é menor de idade.");
 } else if (idadeN < 4) {
   alert("Você é uma criança.");
+} else {
+  alert("Fim!");
 }
