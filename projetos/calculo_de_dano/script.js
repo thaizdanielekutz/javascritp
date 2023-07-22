@@ -1,17 +1,15 @@
-const name = prompt("Insira o nome do personagem: ");
-const poweratach = parseFloat(
-  prompt("Insira o poder de ataque do personagem: ")
-);
-const namePersonage = prompt("Insira o nome do seu personagem: ");
-const quantLife = prompt("Insira a quantidade de pontos de vida: ");
-const powerDefense = pront("Insira o poder de defesa de outro personagem: ");
-const defense = prompt("Possui escudo: (Sim/Não)");
+const atacante = prompt("Qual é o nome do personagem atacante: ");
+const poderDeAtacante = parseFloat(prompt("Qual é o seu poder de ataque? "));
+const defensor = prompt("Qual é o nome do personagem defensor? ");
+let pontosDeVida = parseFloat(prompt("Quantos pontos de vida ele possui? "));
+const poderDeDefesa = parseFloat(pront("Qual é o seu poder de defesa? "));
+const possuiEscudo = prompt("Ele possui um escudo? (Sim/Não)");
+let danoCausado = 0;
 
-if (poweratach > powerDefense && defense === "Não") {
-  alert("O dano é de: " + (poweratach - powerDefense));
-}
-if (powerDefense > powerDefense && defense === "Sim") {
-  alert("O dano é de: " + (1 / 2) * (poweratach - powerDefense));
+if (poderDeAtacante > poderDeDefesa && possuiEscudo === "Não") {
+  danoCausado = poderDeAtacante - poderDeDefesa;
+} else if (poderDeAtacante > poderDeDefesa && possuiEscudo === "Sim") {
+  danoCausado = (1 / 2) * (poderDeAtacante - poderDeDefesa);
 }
 if (poweratach <= powerDefense) {
   alert("O dano é igual a 0.");
