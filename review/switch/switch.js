@@ -1,14 +1,17 @@
 const resultado = prompt("Escolha uma alternativa: \na) \nb) \nc) \nd)");
+const resultadoNumerico = parseFloat(resultado);
 
-switch ("b") {
-  case "a":
+switch (resultadoNumerico) {
+  case 1:
     alert("O resultado é 'a'. ");
-  case "b":
+    break;
+  case 2:
     alert("O resultado é 'b'. ");
     break;
-  case "c":
+  case 3:
     alert("O resultado é 'c'. ");
-  case "d":
+    break;
+  case 4:
     alert("O resultado é 'd'. ");
   default:
     alert("Finalizando...");
