@@ -9,8 +9,24 @@ let danoCausado = 0;
 if (poderDeAtacante > poderDeDefesa && possuiEscudo === "Não") {
   danoCausado = poderDeAtacante - poderDeDefesa;
 } else if (poderDeAtacante > poderDeDefesa && possuiEscudo === "Sim") {
-  danoCausado = (1 / 2) * (poderDeAtacante - poderDeDefesa);
+  danoCausado = (poderDeAtacante - poderDeDefesa) / 2;
+} else {
+  danoCausado = 0;
 }
-if (poweratach <= powerDefense) {
-  alert("O dano é igual a 0.");
-}
+
+pontosDeVida -= danoCausado;
+
+alert(atacante + " causou " + danoCausado + " pontos de dano em " + defensor);
+alert(
+  atacante +
+    "\nPoder de ataque: " +
+    poderDeAtacante +
+    "\n\n" +
+    defensor +
+    "\nPontos de vida: " +
+    pontosDeVida +
+    "\nPoder de defesa: " +
+    poderDeDefesa +
+    "\nPossui escudo: " +
+    possuiEscudo
+);
