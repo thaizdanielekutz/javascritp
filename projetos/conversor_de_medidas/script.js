@@ -1,12 +1,12 @@
 let metricas = parseFloat(
-  prompt("Insira a medida que deseja converter em metros: ")
+  prompt("Insira em metros a medida que deseja converter: ")
 );
 const conversor = prompt(
   "Selecione a opção: \na) Milímetro(mm) \nb) Centímetro(cm) \nc) Decímetro(dm) \nd) Decâmetro(dam) \ne) Hectômetro(hm) \nf) Quilômetros(km)"
 );
 const conversorNumber = parseFloat(conversor);
 
-switch (conversor) {
+switch (conversorNumber) {
   case 1:
     alert("O resultado é: " + metricas * 1000 + " mm");
     break;
