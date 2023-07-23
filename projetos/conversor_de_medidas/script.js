@@ -2,7 +2,7 @@ let metricas = parseFloat(
   prompt("Insira em metros a medida que deseja converter: ")
 );
 const conversor = prompt(
-  "Selecione a opção: \n\na) Milímetro(mm) \n\nb) Centímetro(cm) \n\nc) Decímetro(dm) \n\nd) Decâmetro(dam) \n\ne) Hectômetro(hm) \n\nf) Quilômetros(km) \n\n"
+  "Selecione a opção: \n\n1. Milímetro(mm) \n\n2. Centímetro(cm) \n\n3. Decímetro(dm) \n\n4. Decâmetro(dam) \n\n5. Hectômetro(hm) \n\n6. Quilômetros(km) \n\n"
 );
 const conversorNumber = parseFloat(conversor);
 
