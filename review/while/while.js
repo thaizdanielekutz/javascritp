@@ -7,5 +7,6 @@ while(velocidade > 0 ){
     if(velocidade === 40){
         break
     }
+}
 
     alert("O carro parou.")
