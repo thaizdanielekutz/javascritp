@@ -8,8 +8,7 @@ const numberpar = parseFloat(number);
 let resultado = "";
 
 for (let fator = 1; fator <= 20; fator++) {
-  alert(
-    (resultado +=
-      " -> " + numberpar + " * " + fator + " = " + numberpar * fator + "\n")
-  );
+  resultado +=
+    " -> " + numberpar + " * " + fator + " = " + numberpar * fator + "\n";
 }
+alert("Resultado da tabuada de " + numberpar + ":\n\n" + resultado);
