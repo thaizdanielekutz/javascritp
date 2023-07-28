@@ -2,13 +2,13 @@ let opcao = "5";
 
 do {
   opcao = prompt(
-    "Seja bem-vindo(a)\n" +
+    "Seja bem-vindo(a)\n\n" +
       "\nEscolha uma das opções abaixo: " +
-      "1.Opção Um" +
-      "2.Opçao Dois" +
-      "3. Opção Três" +
-      "4. Opção Quatro" +
-      "5. Encerrar"
+      "\n1.Opção Um" +
+      "\n2.Opçao Dois" +
+      "\n3. Opção Três" +
+      "\n4. Opção Quatro" +
+      "\n5. Encerrar"
   );
 
   switch (opcao) {
@@ -28,3 +28,6 @@ do {
       alert("Encerrar...");
   }
 } while (opcao !== "5");
+{
+  alert("Opção inválida...");
+}
