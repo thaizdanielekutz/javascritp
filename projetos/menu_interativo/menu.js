@@ -26,8 +26,8 @@ do {
       break;
     case "5":
       alert("Encerrar...");
+      break;
+    default:
+      alert("Opção inválida...");
   }
 } while (opcao !== "5");
-{
-  alert("Opção inválida...");
-}
