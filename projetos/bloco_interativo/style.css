@@ -27,3 +27,12 @@
 .flip-card-front {
   background-image: linear-gradient(45deg, #6f04d9, #d9048e);
 }
+.flip-card-front img {
+  width: 220px;
+  margin-top: 1rem;
+}
+.flip-card-back {
+  background-image: linear-gradient(315deg, #6f04d9, #8a045c);
+  color: white;
+  transform: rotateY(180deg);
+}
