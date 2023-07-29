@@ -24,9 +24,25 @@ body {
   border-radius: 50%;
   position: absolute;
 }
+.ring:nth-child(1) {
+  border-bottom-width: 8px;
+  border-color: rgb(255, 255, 255);
+  animation: rotate1 2s linear infinite;
+}
+
+.ring:nth-child(2) {
+  border-right-width: 8px;
+}
+
 .loading {
   color: #2acaff;
   font-family: "Courier New", Courier, monospace;
 }
-.ring {
+@keyframes rotate1 {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
 }
