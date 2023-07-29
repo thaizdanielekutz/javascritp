@@ -26,7 +26,7 @@ body {
 }
 .ring:nth-child(1) {
   border-bottom-width: 8px;
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(28, 92, 189);
   animation: rotate1 2s linear infinite;
   -webkit-animation: rotate1 2s linear infinite;
 }
@@ -44,8 +44,9 @@ body {
   -webkit-animation: rotate3 2s linear infinite;
 }
 .loading {
-  color: #2acaff;
+  color: white;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 @keyframes rotate1 {
   0% {
