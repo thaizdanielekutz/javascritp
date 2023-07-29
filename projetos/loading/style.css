@@ -4,9 +4,20 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  color: aliceblue;
 }
 .loader {
   width: 80px;
   height: 50px;
   position: relative;
+}
+.loader-text {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  color: #c8b6ff;
+  animation: text_713 3.5s ease both infinite;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
