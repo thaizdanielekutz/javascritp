@@ -11,3 +11,9 @@ body {
   align-items: center;
   background: #000;
 }
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
