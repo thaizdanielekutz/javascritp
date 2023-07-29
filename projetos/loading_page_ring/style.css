@@ -37,11 +37,11 @@ body {
   animation: rotate2 2s linear infinite;
   -webkit-animation: rotate2 2s linear infinite;
 }
-.ring:nth-child(2) {
+.ring:nth-child(3) {
   border-top-width: 8px;
-  border-color: rgb(248, 95, 7);
-  animation: rotate2 2s linear infinite;
-  -webkit-animation: rotate2 2s linear infinite;
+  border-color: rgb(18, 240, 40);
+  animation: rotate3 2s linear infinite;
+  -webkit-animation: rotate3 2s linear infinite;
 }
 .loading {
   color: #2acaff;
@@ -61,5 +61,14 @@ body {
   }
   100% {
     transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate3 {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
 }
