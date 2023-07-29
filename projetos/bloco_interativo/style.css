@@ -24,3 +24,6 @@
   backface-visibility: hidden;
   border-radius: 16px;
 }
+.flip-card-front {
+  background-image: linear-gradient(45deg, #6f04d9, #d9048e);
+}
