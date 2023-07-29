@@ -28,12 +28,21 @@ body {
   border-bottom-width: 8px;
   border-color: rgb(255, 255, 255);
   animation: rotate1 2s linear infinite;
+  -webkit-animation: rotate1 2s linear infinite;
 }
 
 .ring:nth-child(2) {
   border-right-width: 8px;
+  border-color: rgb(248, 95, 7);
+  animation: rotate2 2s linear infinite;
+  -webkit-animation: rotate2 2s linear infinite;
 }
-
+.ring:nth-child(2) {
+  border-top-width: 8px;
+  border-color: rgb(248, 95, 7);
+  animation: rotate2 2s linear infinite;
+  -webkit-animation: rotate2 2s linear infinite;
+}
 .loading {
   color: #2acaff;
   font-family: "Courier New", Courier, monospace;
@@ -44,5 +53,13 @@ body {
   }
   100% {
     transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
   }
 }
