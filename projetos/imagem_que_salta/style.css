@@ -10,3 +10,7 @@
   object-fit: cover;
   transition: transform 400ms;
 }
+
+.wrapper:hover img {
+  transform: scale(1.1);
+}
