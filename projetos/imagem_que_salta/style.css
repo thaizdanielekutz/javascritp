@@ -1,0 +1,6 @@
+.wrapper {
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 20px;
+}
