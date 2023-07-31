@@ -39,3 +39,11 @@ const inclui = arr.includes("Marina");
 // Encontrar o índice
 // indexof
 const indice = arr.indexOf("Margarete");
+
+//Cortar e Concatenar
+//slice
+const hobbies = arr.slice(0, 4);
+console.log(hobbies);
+//Os elementos finais
+const hobbies2 = arr.slice(-3);
+console.log(hobbies2);
