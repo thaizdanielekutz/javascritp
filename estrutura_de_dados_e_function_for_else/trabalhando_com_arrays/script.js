@@ -8,3 +8,10 @@ const arr = [
   "Natalia",
   "Cristina",
 ];
+
+//Adicionar Elementos
+//push
+
+arr.push("Lilian");
+
+console.log(arr);
