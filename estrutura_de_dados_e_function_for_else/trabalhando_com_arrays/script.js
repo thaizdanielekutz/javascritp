@@ -34,4 +34,8 @@ console.log(ultimoElemento);
 
 //Pesquisar por um Elemento
 // includes
-const inclui = arr.includes();
+const inclui = arr.includes("Marina");
+
+// Encontrar o índice
+// indexof
+const indice = arr.indexOf("Margarete");
