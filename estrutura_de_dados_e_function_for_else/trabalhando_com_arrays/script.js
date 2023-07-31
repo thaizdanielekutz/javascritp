@@ -25,3 +25,13 @@ console.log(ultimoElemento);
 //Remover Elementos
 //pop
 arr.pop();
+
+//Remover Elementos do início
+//shift
+ultimoElemento = arr.shift();
+console.log(arr);
+console.log(ultimoElemento);
+
+//Pesquisar por um Elemento
+// includes
+const inclui = arr.includes();
