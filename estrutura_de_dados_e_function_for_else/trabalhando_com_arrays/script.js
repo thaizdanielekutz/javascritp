@@ -15,3 +15,9 @@ const arr = [
 arr.push("Lilian");
 
 console.log(arr);
+
+//Adicionar elementos no início
+//unshift
+arr.pop();
+const ultimoElemento = arr.pop();
+console.log(ultimoElemento);
