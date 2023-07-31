@@ -21,3 +21,7 @@ console.log(arr);
 arr.pop();
 const ultimoElemento = arr.pop();
 console.log(ultimoElemento);
+
+//Remover Elementos
+//pop
+arr.pop();
