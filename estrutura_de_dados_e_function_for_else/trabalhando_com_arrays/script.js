@@ -57,3 +57,9 @@ console.log(sociedade);
 //splice
 const elementosRemovidos = sociedade.splice(indice, 1, "Geovana");
 console.log(elementosRemovidos);
+
+//Iterar sobre os elementos
+for (let indice = 0; indice < sociedade.length; indice++) {
+  const elemento = sociedade[indice];
+  console.log(elemento + " se encontra na posição " + indice);
+}
