@@ -47,3 +47,8 @@ console.log(hobbies);
 //Os elementos finais
 const hobbies2 = arr.slice(-3);
 console.log(hobbies2);
+
+//Concatenar
+//concat
+const sociedade = hobbies.concat(hobbies2, "Marina", "Sara");
+console.log(sociedade);
