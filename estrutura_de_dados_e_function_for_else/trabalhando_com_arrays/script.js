@@ -52,3 +52,8 @@ console.log(hobbies2);
 //concat
 const sociedade = hobbies.concat(hobbies2, "Marina", "Sara");
 console.log(sociedade);
+
+//Substituição de elementos
+//splice
+const elementosRemovidos = sociedade.splice(indice, 1, "Geovana");
+console.log(elementosRemovidos);
