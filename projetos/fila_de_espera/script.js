@@ -1,16 +1,6 @@
-const listaPacientes = [
-  "Carlos",
-  "Pedro",
-  "Lucas",
-  "João",
-  "Luiz",
-  "Pedrinho",
-  "Sérgio",
-];
+let fila = [];
+let opcao = "";
 
-const novopaciente = prompt("1.Novo paciente: ")
-
-switch(){
-    case "1":
-        alert()
-}
+do {
+  let paciente = "";
+} while (opcao !== "3");
