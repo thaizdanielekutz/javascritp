@@ -16,5 +16,13 @@ do {
       const novoPaciente = prompt("Qual é o nome do paciente?");
       fila.push(novoPaciente);
       break;
+    case "2":
+      const pacienteConsultado = fila.shift();
+      alert(pacienteConsultado + " foi removido da fila.");
+      break;
+    case "3":
+      alert("Encerrando...");
+    default:
+      alert("Opção inválida");
   }
 } while (opcao !== "3");
