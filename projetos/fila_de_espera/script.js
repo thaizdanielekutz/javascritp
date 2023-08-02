@@ -11,4 +11,10 @@ do {
       paciente +
       "\nEscolha uma opção: \n1. Novo paciente \n2. Consultar paciente \n3. Sair"
   );
+  switch (opcao) {
+    case "1":
+      const novoPaciente = prompt("Qual é o nome do paciente?");
+      fila.push(novoPaciente);
+      break;
+  }
 } while (opcao !== "3");
