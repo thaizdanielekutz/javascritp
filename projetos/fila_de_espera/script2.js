@@ -8,17 +8,19 @@ do {
   }
 
   opcao = prompt(
-    "Professores que pediram cópias \n\n Selecione uma opção:\n1. Adicionar professor a lista de espera \n2. Remover professor da lista de espera \n3. Sair"
+    "Professores que pediram cópias: \n" +
+      professor +
+      "\n Selecione uma opção:\n1. Adicionar professor a lista de espera \n2. Remover professor da lista de espera \n3. Sair"
   );
 
   switch (opcao) {
     case "1":
-      const nomeProfessor = promt("Qual é o nome do professor? ");
+      const nomeProfessor = prompt("Qual é o nome do professor? ");
       fila.push(nomeProfessor);
       const numeroDeCopias = Number(prompt("Qual é o número de cópias? "));
       alert(
         "O(A) professor(a) " +
-          novoProfessor +
+          nomeProfessor +
           " pediu: " +
           numeroDeCopias +
           " para impressão."
