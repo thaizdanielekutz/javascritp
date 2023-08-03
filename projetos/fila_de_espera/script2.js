@@ -2,14 +2,17 @@ let fila = [];
 let opcao = "";
 
 do {
-  let professor = "";
-  for (let i = 0; i < fila.length; i++) {
-    professor += i + 1 + "º- " + fila[i] + "\n";
+  let listaProfessores = "";
+  for (let i = 0; i < fila.length; i += 2) {
+    const nomeProfessor = fila[i];
+    const numeroDeCopias = fila[i + 1];
+    listaProfessores +=
+      i / 2 + 1 + "º- " + nomeProfessor + " (" + numeroDeCopias + " cópias)\n";
   }
 
   opcao = prompt(
     "Professores que pediram cópias: \n" +
-      professor +
+      listaProfessores +
       "\n Selecione uma opção:\n1. Adicionar professor a lista de espera \n2. Remover professor da lista de espera \n3. Sair"
   );
 
@@ -25,6 +28,7 @@ do {
           numeroDeCopias +
           " para impressão."
       );
+      fila.push(numeroDeCopias);
       break;
     case "2":
       const professorRemovido = fila.shift();
