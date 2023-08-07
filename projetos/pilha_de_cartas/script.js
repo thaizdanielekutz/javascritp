@@ -6,7 +6,11 @@ do{
 
     switch(opcao){
         case "1":
+            const novaCarta = prompt("Qual é a carta?")
+            baralho.push(novaCarta)
+            break
         case "2":
+            
         case "3":
             alert("Saindo...")
             break
