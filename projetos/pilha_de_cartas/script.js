@@ -10,7 +10,12 @@ do{
             baralho.push(novaCarta)
             break
         case "2":
-            
+            const cartaPuxada = baralho.pop()
+            if(!cartaPuxada){
+                alert("Não há nenhuma carta no baralho!")
+            }else{
+                alert("Você puxou um(a) " + cartaPuxada)
+            }
         case "3":
             alert("Saindo...")
             break
