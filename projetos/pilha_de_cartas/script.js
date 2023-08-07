@@ -16,6 +16,7 @@ do{
             }else{
                 alert("Você puxou um(a) " + cartaPuxada)
             }
+            break
         case "3":
             alert("Saindo...")
             break
