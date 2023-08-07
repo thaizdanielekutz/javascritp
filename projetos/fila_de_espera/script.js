@@ -18,7 +18,12 @@ do {
       break;
     case "2":
       const pacienteConsultado = fila.shift();
+      //dibrar array diferente de zero
+      if(pacienteConsultado){
       alert(pacienteConsultado + " foi removido da fila.");
+      }else{
+        alert("Não ha pacientes na fila!")
+      }
       break;
     case "3":
       alert("Encerrando...");
