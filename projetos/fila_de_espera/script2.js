@@ -32,7 +32,11 @@ do {
       break;
     case "2":
       const professorRemovido = fila.shift();
+      if(professorRemovido){
       alert(professorRemovido + " foi removido da fila.");
+      }else{
+        alert("Não há nenhum cópia na fila de impressão!")
+      }
       break;
     case "3":
       alert("Encerrando...");
