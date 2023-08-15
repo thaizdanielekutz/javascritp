@@ -18,5 +18,13 @@ do {
       imovel.quartos = prompt("Quantos quartos possui o imóvel: ");
       imovel.baneiros = prompt("Quantos banheiros possui o imóvel: ");
       imovel.garagem = prompt("O imóvel possi garagem: (SIM/NÃO)");
+      break;
+    case "2":
+      break;
+    case "3":
+      alert("Encerrando...");
+      break;
+    default:
+      alert("Opção inválida!");
   }
 } while (opcao !== "3");
