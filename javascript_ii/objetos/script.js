@@ -9,3 +9,6 @@ objeto.prop = "Olá, mundo!";
 console.log(objeto);
 
 console.log(objeto.prop);
+
+//Referenciar de maneira dinâmica
+console.log(objeto[nome]);
