@@ -21,18 +21,21 @@ do {
 
       const confirmacao = confirm(
         "Salvar este imóvel? \n" +
-          "\nProprietário" +
+          "\nProprietário: " +
           imovel.proprietario +
-          "\nQuartos: " +
+          "\n Quartos: " +
           imovel.quartos +
-          "\nBanheiros: " +
+          "\n Banheiros: " +
           imovel.banheiros +
-          "\nPossui garagem: " +
+          "\n Possui garagem: " +
           imovel.garagem
       );
 
       if (confirmacao) {
         imoveis.push(imovel);
+        alert("Imóvel salvo com sucesso! ");
+      } else {
+        alert("Voltando ao menu.");
       }
 
       break;
@@ -45,9 +48,9 @@ do {
             imoveis[i].proprietario +
             "\nQuartos: " +
             imoveis[i].quartos +
-            "Banheiros: " +
+            "\nBanheiros: " +
             imoveis[i].banheiros +
-            "Possui garagem: " +
+            "\nPossui garagem: " +
             imoveis[i].garagem
         );
       }
