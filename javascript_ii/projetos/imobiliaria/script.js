@@ -10,14 +10,26 @@ do {
   );
   switch (opcao) {
     case "1":
-      let imovel = {};
+      const imovel = {};
 
-      imovel.proprietário = prompt(
+      imovel.proprietario = prompt(
         "Informe o nome do proprietário do imóvel: "
       );
       imovel.quartos = prompt("Quantos quartos possui o imóvel: ");
-      imovel.baneiros = prompt("Quantos banheiros possui o imóvel: ");
+      imovel.banheiros = prompt("Quantos banheiros possui o imóvel: ");
       imovel.garagem = prompt("O imóvel possi garagem: (SIM/NÃO)");
+
+      const confirmacao = confirm(
+        "Salvar este imóvel? \n" +
+          "\nProprietário" +
+          imovel.proprietario +
+          "\nQuartos: " +
+          imovel.quartos +
+          "\nBanheiros: " +
+          imovel.banheiros +
+          "\nPossui garagem: " +
+          imovel.garagem
+      );
       break;
     case "2":
       break;
