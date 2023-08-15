@@ -8,11 +8,15 @@ do {
       imoveis.length +
       "\n\n Escolha uma opção:\n1. Novo Imóvel \n2. Listar Imóveis \n3. Sair"
   );
+  switch (opcao) {
+    case "1":
+      let imovel = {};
+
+      imovel.proprietário = prompt(
+        "Informe o nome do proprietário do imóvel: "
+      );
+      imovel.quartos = prompt("Quantos quartos possui o imóvel: ");
+      imovel.baneiros = prompt("Quantos banheiros possui o imóvel: ");
+      imovel.garagem = prompt("O imóvel possi garagem: (SIM/NÃO)");
+  }
 } while (opcao !== "3");
-
-let imovel = {};
-
-imovel.proprietário = prompt("Informe o nome do proprietário do imóvel: ");
-imovel.quartos = prompt("Quantos quartos possui o imóvel: ");
-imovel.baneiros = prompt("Quantos banheiros possui o imóvel: ");
-imovel.garagem = prompt("O imóvel possi garagem: (SIM/NÃO)");
