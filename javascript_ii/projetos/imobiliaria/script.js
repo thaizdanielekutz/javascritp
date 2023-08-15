@@ -30,8 +30,27 @@ do {
           "\nPossui garagem: " +
           imovel.garagem
       );
+
+      if (confirmacao) {
+        imoveis.push(imovel);
+      }
+
       break;
     case "2":
+      for (let i = 0; i < imoveis.length; i++) {
+        alert(
+          "Imóvel " +
+            (i + 1) +
+            "\nProprietário: " +
+            imoveis[i].proprietario +
+            "\nQuartos: " +
+            imoveis[i].quartos +
+            "Banheiros: " +
+            imoveis[i].banheiros +
+            "Possui garagem: " +
+            imoveis[i].garagem
+        );
+      }
       break;
     case "3":
       alert("Encerrando...");
