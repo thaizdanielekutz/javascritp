@@ -29,4 +29,7 @@ function criarUsuario(nome, email, senha, tipo) {
     senha,
     tipo,
   };
+  console.log(usuario);
 }
+
+criarUsuario("Thaiz", "thaiz@email.com", "1234");
