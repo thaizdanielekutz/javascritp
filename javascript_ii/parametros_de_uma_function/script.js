@@ -35,14 +35,15 @@ function criarUsuario(nome, email, senha, tipo) {
 criarUsuario("Thaiz", "thaiz@email.com", "1234");
 criarUsuario("thaiz@gmail.com", "Thaiz ", "1234");
 
-function novoUsuario(nome, email, senha) {
+//Função com dado padrão - tipo = "admin" sempre no final
+function novoUsuario(nome, email, senha, tipo = "admin") {
   const usuario = {
     nome, //mesmo que nome
     email,
     senha,
     tipo,
   };
-  console.log(novoUsuario);
+  console.log(usuario);
 }
 
 novoUsuario("Thaiz", "admin", "thaiz@gmail.com", "1234");
