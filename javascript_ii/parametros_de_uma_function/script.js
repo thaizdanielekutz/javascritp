@@ -60,3 +60,22 @@ muitosParametros(
   "email",
   "senha"
 );
+
+function objetoCOmoParametro(usuario) {
+  // ...
+  usuario.nome;
+  usuario.email;
+}
+
+function muitosParametros(nome, telefone, endereco, aniversario, email, senha)
+
+const dadosDoUsuario = {
+  nome: "",
+  telefone: "",
+  email:"",
+  senha:"",
+  endereco:"",
+  aniversario: ""
+}
+
+objetoCOmoParametro(dadosDoUsuario)
