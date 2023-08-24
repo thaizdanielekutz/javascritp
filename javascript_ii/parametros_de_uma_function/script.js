@@ -47,3 +47,16 @@ function novoUsuario(nome, email, senha, tipo = "admin") {
 }
 
 novoUsuario("Thaiz", "admin", "thaiz@gmail.com", "1234");
+
+//DICA
+function muitosParametros(nome, telefone, endereco, aniversario, email, senha) {
+  //...
+}
+muitosParametros(
+  "nome",
+  "telefone",
+  "endereço",
+  "aniversario",
+  "email",
+  "senha"
+);
