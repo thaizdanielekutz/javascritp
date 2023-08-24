@@ -35,7 +35,7 @@ function criarUsuario(nome, email, senha, tipo) {
 criarUsuario("Thaiz", "thaiz@email.com", "1234");
 criarUsuario("thaiz@gmail.com", "Thaiz ", "1234");
 
-function novoUsuario(nome, tipo = "admin", email, senha) {
+function novoUsuario(nome, email, senha) {
   const usuario = {
     nome, //mesmo que nome
     email,
@@ -45,4 +45,4 @@ function novoUsuario(nome, tipo = "admin", email, senha) {
   console.log(novoUsuario);
 }
 
-novoUsuario("Thaiz", "thaiz@gmail.com", "1234");
+novoUsuario("Thaiz", "admin", "thaiz@gmail.com", "1234");
