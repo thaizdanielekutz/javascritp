@@ -24,7 +24,7 @@ function soma(a, b, c) {
 
 function criarUsuario(nome, email, senha, tipo) {
   const usuario = {
-    nome,
+    nome, //mesmo que nome
     email,
     senha,
     tipo,

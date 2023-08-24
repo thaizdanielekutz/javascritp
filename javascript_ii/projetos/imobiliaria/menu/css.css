@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+@keyframes tremor {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate(-2px, -2px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate(2px, 2px);
+  }
+}
+
+.menu li:hover {
+  animation: tremor 0.3s infinite;
+}
