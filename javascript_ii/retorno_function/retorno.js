@@ -41,5 +41,15 @@ console.log(areaQuadrado1(5));
 function areaQuadrado(lado) {
   return lado ** 2;
 }
-
 console.log(areaQuadrado(10));
+
+// Uma função pode retornar uma unica vez
+
+function ola() {
+  let texto = "...";
+  return texto;
+  texto = "Olá, mundo";
+  console.log(texto);
+}
+
+console.log(ola());
