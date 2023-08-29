@@ -40,3 +40,5 @@ function ola() {
 }
 
 console.log(texto);
+
+//Último exxemplo
