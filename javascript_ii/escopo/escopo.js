@@ -32,3 +32,11 @@ function avaliarNota(nota) {
 
 avaliarNota(83);
 avaliarNota(49);
+
+// Em funções isso não se aplica
+
+function ola() {
+  var texto = "Olá, mundo!";
+}
+
+console.log(texto);
