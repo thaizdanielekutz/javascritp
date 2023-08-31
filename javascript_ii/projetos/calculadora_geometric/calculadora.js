@@ -19,11 +19,10 @@ do {
       alert("O resultado é " + numberOne * numberTwo);
       break;
 
-    case "1":
-      numberOne = prompt("Digíte a base do triângulo: ");
-      numberTwo = prompt("Digíte a altura do triângulo: ");
+    case "3":
+      numberOne = prompt("Digíte a base do quadrado: ");
 
-      alert("O resultado é " + (numberOne * numberTwo) / 2);
+      alert("O resultado é " + numberOne ** 2);
   }
 
   numberOne;
