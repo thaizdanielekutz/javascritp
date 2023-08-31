@@ -23,6 +23,14 @@ do {
       numberOne = prompt("Digíte a base do quadrado: ");
 
       alert("O resultado é " + numberOne ** 2);
+      break;
+    case "4":
+      numberOne = prompt("Digíte a base menor do trapézio: ");
+      numberTwo = prompt("Digíte a base maior do trapézio: ");
+      numberTree = prompt("Digíte a altura do trapézio: ");
+
+      alert("O resultado é " + ((numberOne + numberTwo) * numberTree) / 2);
+      break;
   }
 
   numberOne;
