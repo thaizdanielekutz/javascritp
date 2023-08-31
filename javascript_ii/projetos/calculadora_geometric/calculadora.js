@@ -34,8 +34,7 @@ do {
       );
       break;
     case "5":
-      numberOne = prompt("Digíte a base menor do Círculo: ");
-      numberTwo = prompt("Digíte a base maior do Círculo: ");
+      numberOne = prompt("Digíte o raio do Círculo: ");
 
       alert("A área do cículo é: " + 3, 14 * numberOne ** 2);
       break;
