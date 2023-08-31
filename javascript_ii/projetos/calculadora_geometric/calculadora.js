@@ -9,10 +9,6 @@ do {
       numberOne = prompt("Digíte a base do triângulo: ");
       numberTwo = prompt("Digíte a altura do triângulo: ");
 
-      function areaTriangular(numberOne, numberTwo) {
-        return numberOne * numberTwo;
-      }
-
-      alert("O resultado é " + result);
+      alert("O resultado é " + (numberOne * numberTwo) / 2);
   }
 } while (opcao !== "6");
