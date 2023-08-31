@@ -10,5 +10,21 @@ do {
       numberTwo = prompt("Digíte a altura do triângulo: ");
 
       alert("O resultado é " + (numberOne * numberTwo) / 2);
+      break;
+
+    case "2":
+      numberOne = prompt("Digíte a base do retângulo: ");
+      numberTwo = prompt("Digíte a altura do retângulo: ");
+
+      alert("O resultado é " + numberOne * numberTwo);
+      break;
+
+    case "1":
+      numberOne = prompt("Digíte a base do triângulo: ");
+      numberTwo = prompt("Digíte a altura do triângulo: ");
+
+      alert("O resultado é " + (numberOne * numberTwo) / 2);
   }
+
+  numberOne;
 } while (opcao !== "6");
