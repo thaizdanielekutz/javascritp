@@ -36,7 +36,7 @@ do {
     case "5":
       numberOne = prompt("Digíte o raio do Círculo: ");
 
-      alert("A área do cículo é: " + 3, 14 * numberOne ** 2);
+      alert("A área do cículo é: " + 3.14 * numberOne ** 2);
       break;
     case "6":
       alert("Encerrando...");
