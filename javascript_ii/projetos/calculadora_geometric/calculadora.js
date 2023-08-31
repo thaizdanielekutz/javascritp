@@ -9,28 +9,38 @@ do {
       numberOne = prompt("Digíte a base do triângulo: ");
       numberTwo = prompt("Digíte a altura do triângulo: ");
 
-      alert("O resultado é " + (numberOne * numberTwo) / 2);
+      alert("A área do triângulo é: " + (numberOne * numberTwo) / 2);
       break;
 
     case "2":
       numberOne = prompt("Digíte a base do retângulo: ");
       numberTwo = prompt("Digíte a altura do retângulo: ");
 
-      alert("O resultado é " + numberOne * numberTwo);
+      alert("A área do retângulo é: " + numberOne * numberTwo);
       break;
 
     case "3":
       numberOne = prompt("Digíte a base do quadrado: ");
 
-      alert("O resultado é " + numberOne ** 2);
+      alert("A área do quadrado é:" + numberOne ** 2);
       break;
     case "4":
       numberOne = prompt("Digíte a base menor do trapézio: ");
       numberTwo = prompt("Digíte a base maior do trapézio: ");
       numberTree = prompt("Digíte a altura do trapézio: ");
 
-      alert("O resultado é " + ((numberOne + numberTwo) * numberTree) / 2);
+      alert(
+        "A área do trapézio é: " + ((numberOne + numberTwo) * numberTree) / 2
+      );
       break;
+    case "5":
+      numberOne = prompt("Digíte a base menor do Círculo: ");
+      numberTwo = prompt("Digíte a base maior do Círculo: ");
+
+      alert("A área do cículo é: " + 3, 14 * numberOne ** 2);
+      break;
+    case "6":
+      alert("Encerrando...");
   }
 
   numberOne;
