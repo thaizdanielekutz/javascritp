@@ -26,3 +26,33 @@ function calcularAreaCirculo() {
   const raio = prompt("Informe o raio do círculo: ");
   return 3.14 * raio * raio;
 }
+
+function exibirMenu() {
+  return prompt(
+    "Calculadora Geométrica\n" +
+      "1. Calcular área do triângulo\n" +
+      "2. Calcular área de retângulo\n" +
+      "3. Calcular área de quadrado\n" +
+      "4. Calcular área de trapézio\n" +
+      "5. Calcular área de círculo\n" +
+      "6. Sair\n"
+  );
+}
+
+function executar() {
+  let opcao = "";
+
+  do {
+    opcao = exibirMenu();
+    let resultado;
+
+    switch (opcao) {
+      case "1":
+      case "2":
+      case "3":
+      case "4":
+      case "5":
+      case "6":
+    }
+  } while (opcao !== "6");
+}
