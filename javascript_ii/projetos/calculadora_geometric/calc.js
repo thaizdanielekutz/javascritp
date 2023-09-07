@@ -9,3 +9,8 @@ function calcularAreaRetangulo() {
   const altura = prompt("Informe a altura do retângulo: ");
   return base * altura;
 }
+
+function calcularAreaQuadrado() {
+  const lado = prompt("Informe o lado do quadrado: ");
+  return lado * lado;
+}
