@@ -21,3 +21,8 @@ function calcularAreaTrapezio() {
   const altura = prompt("Informe a altura do trapézio: ");
   return ((baseMaior + baseMenor) * altura) / 2;
 }
+
+function calcularAreaCirculo() {
+  const raio = prompt("Informe o raio do círculo: ");
+  return 3.14 * raio * raio;
+}
