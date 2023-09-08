@@ -66,7 +66,7 @@ function executar() {
         alert("Saindo...");
         break;
       default:
-        alert("Opção inválida.");
+        alert("Opção inválida...");
     }
     if (resultado) {
       alert("Resultado: " + resultado);
