@@ -3,7 +3,11 @@ let pessoa = {
   nome: "Thaiz",
   idade: 22,
   dizerOla() {
-    console.log("Thaiz, diga olá!");
+    console.log(
+      this.nome +
+        " , diga olá! Agora que falou olá, fale sua idade!" +
+        this.idade
+    );
   },
 };
 
