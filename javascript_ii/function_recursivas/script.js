@@ -8,3 +8,5 @@ function dividir(num) {
     return num;
   }
 }
+
+dividir(40);
