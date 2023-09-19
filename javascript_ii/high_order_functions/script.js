@@ -11,3 +11,9 @@ function somar(x, y) {
 calcular(3, 5, somar);
 
 // somar() -> apresenta retorno
+// somar -> função anônima
+
+calcular(8, 4, function subtrair(x, y) {
+  console.log("Realizando uma subtração.");
+  return x - y;
+});
