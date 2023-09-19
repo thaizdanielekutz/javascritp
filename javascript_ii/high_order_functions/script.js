@@ -17,3 +17,12 @@ calcular(8, 4, function subtrair(x, y) {
   console.log("Realizando uma subtração.");
   return x - y;
 });
+
+// como utiliza uma high no dia-a-dia
+function exibirElemento(elemento, indice, array) {
+  console.log({
+    elemento,
+    indice,
+    array,
+  });
+}
