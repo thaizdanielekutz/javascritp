@@ -26,3 +26,11 @@ function exibirElemento(elemento, indice, array) {
     array,
   });
 }
+
+const lista = ["Maça", "Uva", "Banana"];
+for (let i = 0; i < lista.length; i++) {
+  exibirElemento(lista[i], i, lista);
+}
+
+// para a mesma coisa
+lista.forEach(exibirElemento);
